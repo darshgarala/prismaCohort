@@ -1,0 +1,19 @@
+npm init -y
+
+npm install prisma typescript ts-node @types/node --save-dev
+
+npx tsc --init
+Change `rootDit` to `src`
+Change `outDir` to `dist`
+
+npx prisma init
+
+npx prisma migrate dev --name init
+
+
+connect db in prisma: 
+->localhost ->postgres ->ps:postgress -> 5432 -> show all db ... etc.
+
+git add .
+git commit -m "changis_id"
+git push
