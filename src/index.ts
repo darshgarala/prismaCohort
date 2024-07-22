@@ -19,4 +19,4 @@ async function insertUser(username: string, password: string, firstName: string,
   console.log(res);
 }
 
-insertUser("admin2", "123456", "darsh1", "garala1")
+insertUser("admin3", "123456", "darsh3", "garala3")

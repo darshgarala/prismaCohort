@@ -1,0 +1,9 @@
+-- AlterTable
+ALTER TABLE "Todo" ALTER COLUMN "description" DROP NOT NULL;
+
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "password" DROP NOT NULL,
+ALTER COLUMN "firstName" DROP NOT NULL;
+
+-- AddForeignKey
+ALTER TABLE "Todo" ADD CONSTRAINT "Todo_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

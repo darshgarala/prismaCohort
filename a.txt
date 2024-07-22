@@ -12,7 +12,7 @@ npx prisma migrate dev --name init
 
 
 connect db in prisma: 
-->localhost ->postgres ->ps:postgress -> 5432 -> show all db ... etc.
+->localhost -> postgres ->ps:postgress -> 5432 -> show all db ... etc.
 
 git add .
 git commit -m "changis_id"
